@@ -1,0 +1,380 @@
+:root {
+    /* Кольори фону */
+    --bg-main-color: #FFFFFF;
+    --bg-button: #0B0E66;
+    --bg-item-color: rgba(255, 255, 255, 0.7);
+    --bg-header: rgba(43, 74, 97, 0.87);
+    
+    /* Кольори тексту */
+
+    --secondary-tittle-color: #0A3853;
+    --primary-tittle-color: #141414;
+    --dark-text-color: #000000;
+
+    --hover-text-color: #94CFFF;
+
+    --button-text-color: #26C6EA;
+
+    /* Шрифти */
+    
+    --font-family: "Inter", sans-serif;
+    --second-family: "HeadlandOne", sans-serif;
+    --third-family: "Hammersmith One", sans-serif;
+
+}
+
+/* body */
+
+body {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* section */
+
+.section {
+    background-color: #0A3853;
+}
+
+/* Контейнер */
+
+.container {
+    width: 1032px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Логотип */
+
+.logo-img {
+    width: 186px;
+    height: 72px;
+}
+
+/* Кнопка */
+
+.button {
+    display: block;
+    color: var(--button-text-color);
+    background-color: var(--bg-button);
+    font-family: var(--second-family);
+
+}
+
+/* Шапка сайту */
+
+.header {
+    background-image: linear-gradient(to right,  rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    padding-top: 39px;
+    margin: auto;
+    border: 1px solid var(--bg-main-color);
+}
+
+.section-header {
+    width: 1440px;
+    display: flex;
+    padding-left: 204px;
+    padding-right: 48px;
+    align-items: center;
+}
+
+.language {
+    color: var(--bg-main-color);
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero-container {
+    display: flex;
+    column-gap: 606px;
+}
+
+
+/* Навігація */
+.navigation {
+    margin-left: 168px;
+    margin-right: 212px;
+}
+
+.nav-link {
+    color: var(--bg-main-color);
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;    
+}
+
+.nav-link:hover, .nav-link:focus{
+    color: var(--hover-text-color);
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 38px;
+}
+
+.rectangle3 {}
+
+/* Кнопки */
+
+.header-button {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 141px;
+    height: 41px;
+    border: 2px solid var(--button-text-color);
+    margin-right: 49px;
+    border-radius: 35px 0;
+}
+
+.switcher {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Main - Головна частина */
+
+/* Section - Hero */
+
+.hero-section {
+    padding-top: 180px;
+    background-image: url(../images/bg-section1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;  
+}
+
+.hero-item-pramery {
+
+}
+
+.hero-item-secondary {
+    text-align: end;
+    margin: auto;
+}
+
+.filter-item {
+    margin-top: 24px;
+    margin-bottom: 27px;
+}
+
+.hero-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--bg-main-color);
+}
+
+.rectangle3 {
+    width: 152px;
+    height: 40px;
+    background-image: url(../images/rectangle3.png);
+}
+
+/* Кнопка */
+
+.hero-button {
+    border: 3px solid var(--button-text-color);
+    border-radius: 45px 0;
+    width: 260px;
+    height: 80px;
+    margin-top: 42px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+/* Section */
+
+.section {
+    background-color: var(--bg-main-color);
+    padding-top: 75px;
+}
+
+
+.tittle {
+    width: 1002px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: var(--secondary-tittle-color);
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center; 
+    text-transform: capitalize;
+    margin-top: 16px;
+
+}
+
+.berds-img {
+    background-image: url(../images/berds.png);
+    width: 400px;
+    height: 120px;
+    margin: 8px auto 10px;
+}
+
+/* 3 */
+.trailer-section {
+    padding-top: 330px;
+    background-image: url(../images/bg-section2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 741px;
+}
+
+.button-trailer {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: var(--button-text-color);
+    border: 3px solid #26c7ea;
+    border-radius: 45px 0;
+    width: 260px;
+    height: 80px;
+    margin: auto;
+}
+
+/* Мова На'ві */
+
+.navi-language-section {
+    background-image: url(../images/bg-section3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+.second-tittle {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: var(--primary-tittle-color);
+    margin-bottom: 45px;
+}
+
+.navi-language-list {
+    display: flex;
+    flex-wrap: wrap;   
+    column-gap: 38px;
+    row-gap: 24px;
+}
+
+.navi-language-item {
+    padding: 36px 29px;
+    background-color: var(--bg-item-color);
+    flex-basis: calc((100% -  2 * 38px) / 3);
+    text-align: center;
+    background-image: url(../images/rectangle2.png);
+    background-repeat: no-repeat;
+    background-size: 152px 40px;
+    background-position: center;
+    
+}
+
+.navi-language-text:first-child {
+    margin-bottom: 120px;
+}
+
+.rectangle1 {
+    background-image: url(../images/rectangle2.png);
+   
+    
+}
+
+.berds {
+    background-image: url(../images/berds.png);
+    width: 320px;
+    height: 240px;
+}
+
+.rectangle2 {
+    background-image: url(../images/rectangle1.png);
+}
+
+/* footer */
+
+.footer {
+    background-image: linear-gradient(to right,  rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 223px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-logo {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-right: 2px solid var(--bg-main-color);
+    padding: 42px 80px 42px 0;
+}
+
+.footer-hero {
+    font-style: normal;
+}
+
+.footer-list {
+    margin-top: 80px;
+    margin-bottom: 37px;
+    margin-left: 80px;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    width: 665px;
+}
+
+.qaemail-item {
+    background-image: url(../images/vector2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 127px;
+    margin-bottom: 16px;
+}
+
+.cooperation-email-item {
+    background-image: url(../images/vector1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 203px;
+}
+
+.footer-text {
+    color: var(--bg-main-color);
+}
+
+.footer-link {
+    color: var(--bg-main-color);
+}
+
+.small-text {
+    color: var(--bg-main-color);
+    margin-left: 211px;
+}
+
+
+
