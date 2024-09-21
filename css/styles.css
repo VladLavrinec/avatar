@@ -71,7 +71,7 @@ body {
     height: 150px;
     padding-top: 39px;
     margin: auto;
-    border: 1px solid var(--bg-main-color);
+    border-bottom: 1px solid var(--bg-main-color);
 }
 
 .section-header {
@@ -91,10 +91,6 @@ body {
     text-transform: uppercase;
 }
 
-.hero-container {
-    display: flex;
-    column-gap: 606px;
-}
 
 
 /* Навігація */
@@ -155,6 +151,12 @@ body {
     height: 740px;  
 }
 
+
+.hero-container {
+    display: flex;
+    column-gap: 606px;
+}
+
 .hero-item-pramery {
 
 }
@@ -180,6 +182,7 @@ body {
     width: 152px;
     height: 40px;
     background-image: url(../images/rectangle3.png);
+    margin-left: 53px;
 }
 
 /* Кнопка */
@@ -222,6 +225,7 @@ body {
     text-align: center; 
     text-transform: capitalize;
     margin-top: 16px;
+    background-position: 520px 220px;
 
 }
 
